@@ -209,7 +209,7 @@ This notebook demonstrates that a relatively simple classical Natural Language P
 """))
 
     # Save to file
-    with open('hallucination_classifier.ipynb', 'w') as f:
+    with open('../notebooks/hallucination_classifier.ipynb', 'w') as f:
         nbf.write(nb, f)
     
     print("Notebook 'hallucination_classifier.ipynb' generated successfully.")
